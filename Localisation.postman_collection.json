@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "82e9d4d3-93a9-4b89-a4d9-dfef0f328886",
+		"name": "Localisation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21312526"
+	},
+	"item": [
+		{
+			"name": "Greeting",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "fr",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/greeting",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greeting"
+					],
+					"query": [
+						{
+							"key": "lang",
+							"value": "fr",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
